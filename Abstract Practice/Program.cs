@@ -10,14 +10,15 @@ namespace Abstract_Practice
             ToyBear teddy = new TeddyBear();
             ToyBear grizzlyTeddy = new BearAdapter(grozzly);
 
+            Console.WriteLine("Grizzly bear test:");
             grozzly.hibernate();
             grozzly.maul();
 
-            Console.WriteLine();
+            Console.WriteLine("\nTeddy bear test:");
 
             teddy.hug();
 
-            Console.WriteLine();
+            Console.WriteLine("\nBear adapter test:");
 
             grizzlyTeddy.hug();
         }
