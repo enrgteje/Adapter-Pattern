@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* Name: Enrique Tejeda
+ * Date: 9/13/2020
+ * Filename: Program.cs
+ * Description: Creates 3 object to test and calls the functions of each object.
+ */
+
+using System;
 
 namespace Abstract_Practice
 {
